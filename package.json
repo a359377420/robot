@@ -1,0 +1,53 @@
+{
+  "name": "fangun8-robot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "socket": "node ./command/socket-dev.js",
+    "robot": "node ./command/socket_bot.js"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "~1.18.2",
+    "colors": "^1.1.2",
+    "connect-mongo": "^2.0.0",
+    "cookie-parser": "^1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "jade": "^1.11.0",
+    "log4js": "^2.5.2",
+    "md5": "^2.2.1",
+    "mongodb": "^3.0.1",
+    "mongoose": "^5.0.0-rc0",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "node-uuid": "^1.4.8",
+    "passport": "^0.4.0",
+    "passport-steam": "^1.0.8",
+    "passport.socketio": "^3.7.0",
+    "pug": "^2.0.0-rc.4",
+    "request-promise": "^4.2.2",
+    "serve-favicon": "^2.4.5",
+    "socket.io": "^2.0.4",
+    "socket.io-client": "^2.0.4",
+    "steam-totp": "^2.0.1",
+    "steam-tradeoffer-manager": "^2.9.3",
+    "steam-user": "^3.24.0",
+    "steamcommunity": "^3.34.0"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://fangun8:fangun888@git.coding.net/fangun8/robot.git"
+  },
+  "author": "Lookwi",
+  "license": "ISC",
+  "description": "Steam机器人项目",
+  "keywords": [
+    "翻滚吧机器人"
+  ]
+}
